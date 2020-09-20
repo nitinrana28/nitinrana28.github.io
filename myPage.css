@@ -86,7 +86,7 @@ body {
   .panel-heading {
     color: #fff !important;
     background-color: #f4511e !important;
-    padding: 5px;
+    padding: 2px;
     border-bottom: 1px solid transparent;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -192,7 +192,7 @@ body {
 }
 
 /* The actual timeline (the vertical ruler) */
-.timeline::after {
+.timeline::before {
   content: '';
   position: absolute;
   width: 6px;
@@ -327,9 +327,9 @@ body {
 .chip {
   display: inline-block;
   padding: 0 25px;
-  height: 50px;
+  height: 30px;
   font-size: 16px;
-  line-height: 50px;
+  line-height: 30px;
   border-radius: 25px;
   background-color: #54ab5a;
 }
@@ -337,8 +337,8 @@ body {
 .chip-start {
   float: left;
   margin: 0 10px 0 -25px;
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   background-color: #345867;
 }
